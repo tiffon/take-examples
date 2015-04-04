@@ -1,0 +1,46 @@
+$ .question
+
+    # question poster
+    $ .postcell .post-signature.owner
+        $ .user-details a
+            | text
+                save: question.asked_by.user_login
+            | [href]
+                save: question.asked_by.user_url
+        $ .user-action-time span | [title]
+            save: question.asked_by.date
+
+    # question comments
+    $ .comments .comment-body
+        save each: question.comments
+            $ .comment-user
+                | text
+                    save: user_login
+                | [href]
+                    save: user_url
+            $ .comment-date span | [title]
+                save: date
+
+$ #answers .answer
+    save each: answers
+
+        # user who answered the post
+        $ .answercell .user-info | -1
+            $ .user-details a
+                | text
+                    save: answered_by.user_login
+                | [href]
+                    save: answered_by.user_url
+            $ .user-action-time span | [title]
+                save: answered_by.date
+
+        # comments on the answer
+        $ .comments .comment-body
+            save each: comments
+                $ .comment-user
+                    | text
+                        save: user_login
+                    | [href]
+                        save: user_url
+                $ .comment-date span | [title]
+                    save: date

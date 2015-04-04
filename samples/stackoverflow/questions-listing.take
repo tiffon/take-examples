@@ -1,0 +1,26 @@
+$ .question-summary
+    save each: questions
+
+        # activity metrics
+        $ .votes | text
+            save: attn.votes
+        $ .status | text
+            save: attn.answers
+        $ .views | text
+            save: attn.views
+
+        # question info
+        $ .summary
+            $ h3 a
+                | [href]
+                    save: post_url
+                | text
+                    save: title
+            $ .excerpt | text
+                save: excerpt
+            $ .tags a
+                save each: tags
+                    | [href]
+                        save: url
+                    | text
+                        save: name
