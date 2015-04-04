@@ -1,6 +1,6 @@
 An example of scraping the title, excerpt and user activity for the [last 10 web-scraping questions](http://stackoverflow.com/questions/tagged/web-scraping?sort=newest&pageSize=10) on stackoverflow.
 
-It's with [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [take templates](https://github.com/tiffon/take).
+The sample is done twice, once with [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) and again with [take templates](https://github.com/tiffon/take).
 
 A sample of the data that is scraped for each question:
 
