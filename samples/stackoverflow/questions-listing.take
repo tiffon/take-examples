@@ -1,24 +1,16 @@
 $ .question-summary
-    save each:                      questions
+    save each                       : questions
         # activity metrics
-        $ .votes | text
-            save:                       attn.votes
-        $ .status | text
-            save:                       attn.answers
-        $ .views | text
-            save:                       attn.views
+        $ .votes | text ;               : attn.votes
+        $ .status | text ;              : attn.answers
+        $ .views | text ;               : attn.views
         # question info
         $ .summary
             $ h3 a
-                | [href]
-                    save:               post_url
-                | text
-                    save:               title
-            $ .excerpt | text
-                save:                   excerpt
+                | [href] ;              : post_url
+                | text ;                : title
+            $ .excerpt | text ;         : excerpt
             $ .tags a
-                save each:              tags
-                    | [href]
-                        save:               url
-                    | text
-                        save:               name
+                save each               : tags
+                    | [href] ;              : url
+                    | text ;                : name

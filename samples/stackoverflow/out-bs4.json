@@ -2,31 +2,35 @@
     {
         "tags": [
             {
-                "url": "/questions/tagged/javascript", 
-                "name": "javascript"
+                "url": "/questions/tagged/php", 
+                "name": "php"
             }, 
             {
-                "url": "/questions/tagged/html", 
-                "name": "html"
-            }, 
-            {
-                "url": "/questions/tagged/iframe", 
-                "name": "iframe"
+                "url": "/questions/tagged/ruby", 
+                "name": "ruby"
             }, 
             {
                 "url": "/questions/tagged/web-scraping", 
                 "name": "web-scraping"
+            }, 
+            {
+                "url": "/questions/tagged/nokogiri", 
+                "name": "nokogiri"
+            }, 
+            {
+                "url": "/questions/tagged/watir-webdriver", 
+                "name": "watir-webdriver"
             }
         ], 
-        "title": "Web scraping an iframe that has product description text (Amazon.com)", 
-        "excerpt": "\r\n            I've been learning how to web scrape using the node package \"cheerio\". \n\nIt's generally straight forward for stuff inside regular html, but it's proven less straightforward how to scrape the text ...\r\n        ", 
-        "post_url": "/questions/29442443/web-scraping-an-iframe-that-has-product-description-text-amazon-com", 
+        "title": "Files Read and put it to in a loop with many to one relation Ruby", 
+        "excerpt": "\r\n            Hi I am developing an Web Scraper.After completing the scraping thing i am facing an issue regarding file handling . I have two file one contains facility list and other contains State list. I want to ...\r\n        ", 
+        "post_url": "/questions/29472242/files-read-and-put-it-to-in-a-loop-with-many-to-one-relation-ruby", 
         "activity": {
             "question": {
                 "asked_by": {
-                    "date": "2015-04-04 03:36:10Z", 
-                    "user_login": "manzosk3", 
-                    "user_url": "/users/4634042/manzosk3"
+                    "date": "2015-04-06 13:27:57Z", 
+                    "user_login": "Er Vipin Singh", 
+                    "user_url": "/users/3069650/er-vipin-singh"
                 }, 
                 "comments": []
             }, 
@@ -35,7 +39,155 @@
         "attn": {
             "votes": "\n0\nvotes\n", 
             "answers": "\n0answers\r\n            ", 
-            "views": "\r\n    9 views\r\n"
+            "views": "\r\n    6 views\r\n"
+        }
+    }, 
+    {
+        "tags": [
+            {
+                "url": "/questions/tagged/javascript", 
+                "name": "javascript"
+            }, 
+            {
+                "url": "/questions/tagged/xpath", 
+                "name": "xpath"
+            }, 
+            {
+                "url": "/questions/tagged/web-scraping", 
+                "name": "web-scraping"
+            }
+        ], 
+        "title": "How to get image src using javascript and xpath?", 
+        "excerpt": "\r\n            How can I get image src using javascript and xpath?\nI tried document.evaluate, but still cannot get the result. I just don't understand how document.evaluate works so please if you could add ...\r\n        ", 
+        "post_url": "/questions/29470010/how-to-get-image-src-using-javascript-and-xpath", 
+        "activity": {
+            "question": {
+                "asked_by": {
+                    "date": "2015-04-06 11:04:22Z", 
+                    "user_login": "atho", 
+                    "user_url": "/users/4754261/atho"
+                }, 
+                "comments": [
+                    {
+                        "date": "2015-04-06 11:07:29Z", 
+                        "user_login": "satish rajak", 
+                        "user_url": "/users/4662759/satish-rajak"
+                    }, 
+                    {
+                        "date": "2015-04-06 11:18:50Z", 
+                        "user_login": "atho", 
+                        "user_url": "/users/4754261/atho"
+                    }
+                ]
+            }, 
+            "answers": [
+                {
+                    "answered_by": {
+                        "date": "2015-04-06 11:11:11Z", 
+                        "user_login": "Data2000", 
+                        "user_url": "/users/3396545/data2000"
+                    }, 
+                    "comments": [
+                        {
+                            "date": "2015-04-06 11:17:26Z", 
+                            "user_login": "atho", 
+                            "user_url": "/users/4754261/atho"
+                        }, 
+                        {
+                            "date": "2015-04-06 11:18:42Z", 
+                            "user_login": "Data2000", 
+                            "user_url": "/users/3396545/data2000"
+                        }, 
+                        {
+                            "date": "2015-04-06 11:41:03Z", 
+                            "user_login": "atho", 
+                            "user_url": "/users/4754261/atho"
+                        }, 
+                        {
+                            "date": "2015-04-06 11:43:59Z", 
+                            "user_login": "Data2000", 
+                            "user_url": "/users/3396545/data2000"
+                        }, 
+                        {
+                            "date": "2015-04-06 11:48:26Z", 
+                            "user_login": "atho", 
+                            "user_url": "/users/4754261/atho"
+                        }
+                    ]
+                }, 
+                {
+                    "answered_by": {
+                        "date": "2015-04-06 11:27:28Z", 
+                        "user_login": "satish rajak", 
+                        "user_url": "/users/4662759/satish-rajak"
+                    }, 
+                    "comments": []
+                }
+            ]
+        }, 
+        "attn": {
+            "votes": "\n0\nvotes\n", 
+            "answers": "\n2answers\r\n            ", 
+            "views": "\r\n    13 views\r\n"
+        }
+    }, 
+    {
+        "tags": [
+            {
+                "url": "/questions/tagged/ruby", 
+                "name": "ruby"
+            }, 
+            {
+                "url": "/questions/tagged/web-scraping", 
+                "name": "web-scraping"
+            }, 
+            {
+                "url": "/questions/tagged/nokogiri", 
+                "name": "nokogiri"
+            }, 
+            {
+                "url": "/questions/tagged/screen-scraping", 
+                "name": "screen-scraping"
+            }, 
+            {
+                "url": "/questions/tagged/watir-webdriver", 
+                "name": "watir-webdriver"
+            }
+        ], 
+        "title": "How do you scrape a webpage to check if you need to solve for captcha", 
+        "excerpt": "\r\n            I'm using 'watir', 'curb', 'nokogiri', 'esay_captcha_solver' and I'm trying to scrape the page so I'll know if a captcha has appeared and then solve it by getting the image url. However I'm not sure ...\r\n        ", 
+        "post_url": "/questions/29469505/how-do-you-scrape-a-webpage-to-check-if-you-need-to-solve-for-captcha", 
+        "activity": {
+            "question": {
+                "asked_by": {
+                    "date": "2015-04-06 10:31:28Z", 
+                    "user_login": "marriedjane875", 
+                    "user_url": "/users/4566078/marriedjane875"
+                }, 
+                "comments": [
+                    {
+                        "date": "2015-04-06 12:55:36Z", 
+                        "user_login": "Alex Golubenko", 
+                        "user_url": "/users/4057366/alex-golubenko"
+                    }, 
+                    {
+                        "date": "2015-04-06 13:23:43Z", 
+                        "user_login": "marriedjane875", 
+                        "user_url": "/users/4566078/marriedjane875"
+                    }, 
+                    {
+                        "date": "2015-04-06 13:26:57Z", 
+                        "user_login": "Alex Golubenko", 
+                        "user_url": "/users/4057366/alex-golubenko"
+                    }
+                ]
+            }, 
+            "answers": []
+        }, 
+        "attn": {
+            "votes": "\n0\nvotes\n", 
+            "answers": "\n0answers\r\n            ", 
+            "views": "\r\n    18 views\r\n"
         }
     }, 
     {
@@ -45,65 +197,197 @@
                 "name": "python"
             }, 
             {
-                "url": "/questions/tagged/xpath", 
-                "name": "xpath"
+                "url": "/questions/tagged/recursion", 
+                "name": "recursion"
             }, 
             {
                 "url": "/questions/tagged/web-scraping", 
                 "name": "web-scraping"
             }, 
             {
-                "url": "/questions/tagged/lxml", 
-                "name": "lxml"
-            }, 
-            {
-                "url": "/questions/tagged/lxml.html", 
-                "name": "lxml.html"
+                "url": "/questions/tagged/scrapy", 
+                "name": "scrapy"
             }
         ], 
-        "title": "Scraping new ESPN site using xpath [Python]", 
-        "excerpt": "\r\n            I am trying to scrape the new ESPN NBA scoreboard. Here is a simple script which should return the start times for all games on 4/5/15:\n\nimport requests\nimport lxml.html\nfrom lxml.cssselect import ...\r\n        ", 
-        "post_url": "/questions/29441855/scraping-new-espn-site-using-xpath-python", 
+        "title": "Scrapy recursive parse : what i am doing wrong here", 
+        "excerpt": "\r\n            I am trying to scrape aspx websites list view , hence structure of each page will be same and ( hence i am using recursive spider call's)\n\n\n  Error: ERROR: Spider must return Request, BaseItem or ...\r\n        ", 
+        "post_url": "/questions/29466967/scrapy-recursive-parse-what-i-am-doing-wrong-here", 
         "activity": {
             "question": {
                 "asked_by": {
-                    "date": "2015-04-04 01:41:34Z", 
-                    "user_login": "Dixon11111", 
-                    "user_url": "/users/3553024/dixon11111"
+                    "date": "2015-04-06 07:12:32Z", 
+                    "user_login": "Dharmesh", 
+                    "user_url": "/users/2204978/dharmesh"
                 }, 
                 "comments": []
             }, 
             "answers": [
                 {
                     "answered_by": {
-                        "date": "2015-04-04 02:18:28Z", 
-                        "user_login": "alecxe", 
-                        "user_url": "/users/771848/alecxe"
+                        "date": "2015-04-06 08:03:26Z", 
+                        "user_login": "Reut Sharabani", 
+                        "user_url": "/users/948550/reut-sharabani"
                     }, 
                     "comments": [
                         {
-                            "date": "2015-04-04 02:24:06Z", 
-                            "user_login": "Dixon11111", 
-                            "user_url": "/users/3553024/dixon11111"
+                            "date": "2015-04-06 08:50:50Z", 
+                            "user_login": "Dharmesh", 
+                            "user_url": "/users/2204978/dharmesh"
                         }, 
                         {
-                            "date": "2015-04-04 02:33:43Z", 
-                            "user_login": "alecxe", 
-                            "user_url": "/users/771848/alecxe"
+                            "date": "2015-04-06 08:52:57Z", 
+                            "user_login": "Dharmesh", 
+                            "user_url": "/users/2204978/dharmesh"
                         }, 
                         {
-                            "date": "2015-04-04 03:33:11Z", 
-                            "user_login": "Dixon11111", 
-                            "user_url": "/users/3553024/dixon11111"
+                            "date": "2015-04-06 08:54:55Z", 
+                            "user_login": "Reut Sharabani", 
+                            "user_url": "/users/948550/reut-sharabani"
+                        }, 
+                        {
+                            "date": "2015-04-06 09:30:24Z", 
+                            "user_login": "Dharmesh", 
+                            "user_url": "/users/2204978/dharmesh"
                         }
                     ]
                 }
             ]
         }, 
         "attn": {
-            "votes": "\n1\nvote\n", 
+            "votes": "\n0\nvotes\n", 
             "answers": "\n1answer\r\n            ", 
-            "views": "\r\n    19 views\r\n"
+            "views": "\r\n    21 views\r\n"
+        }
+    }, 
+    {
+        "tags": [
+            {
+                "url": "/questions/tagged/mysql", 
+                "name": "mysql"
+            }, 
+            {
+                "url": "/questions/tagged/performance", 
+                "name": "performance"
+            }, 
+            {
+                "url": "/questions/tagged/web", 
+                "name": "web"
+            }, 
+            {
+                "url": "/questions/tagged/web-scraping", 
+                "name": "web-scraping"
+            }
+        ], 
+        "title": "technology for web scraping need?", 
+        "excerpt": "\r\n            mates i need to know what is the best programming technology is best for web scraping from dynamic sites like Google search,bing search,Social media sites  etc hope you get my point.\n\nWant something ...\r\n        ", 
+        "post_url": "/questions/29462284/technology-for-web-scraping-need", 
+        "activity": {
+            "question": {
+                "asked_by": {
+                    "date": "2015-04-05 21:12:55Z", 
+                    "user_login": "Abdullah Siddique", 
+                    "user_url": "/users/1577979/abdullah-siddique"
+                }, 
+                "comments": [
+                    {
+                        "date": "2015-04-05 21:59:57Z", 
+                        "user_login": "Rick James", 
+                        "user_url": "/users/1766831/rick-james"
+                    }, 
+                    {
+                        "date": "2015-04-05 22:12:55Z", 
+                        "user_login": "Abdullah Siddique", 
+                        "user_url": "/users/1577979/abdullah-siddique"
+                    }
+                ]
+            }, 
+            "answers": [
+                {
+                    "answered_by": {
+                        "date": "2015-04-05 22:23:45Z", 
+                        "user_login": "Rick James", 
+                        "user_url": "/users/1766831/rick-james"
+                    }, 
+                    "comments": [
+                        {
+                            "date": "2015-04-05 22:37:39Z", 
+                            "user_login": "Abdullah Siddique", 
+                            "user_url": "/users/1577979/abdullah-siddique"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "attn": {
+            "votes": "\n-1\nvotes\n", 
+            "answers": "\n1answer\r\n            ", 
+            "views": "\r\n    17 views\r\n"
+        }
+    }, 
+    {
+        "tags": [
+            {
+                "url": "/questions/tagged/python", 
+                "name": "python"
+            }, 
+            {
+                "url": "/questions/tagged/web-scraping", 
+                "name": "web-scraping"
+            }
+        ], 
+        "title": "Removing words from python lists?", 
+        "excerpt": "\r\n            I am a complete noob in python and web scraping and have ran into some issues quite early. I have been able to scrape a Dutch news website their titles and splitting the words. Now my objective is to ...\r\n        ", 
+        "post_url": "/questions/29461036/removing-words-from-python-lists", 
+        "activity": {
+            "question": {
+                "asked_by": {
+                    "date": "2015-04-05 19:00:27Z", 
+                    "user_login": "Arthurrrrrr", 
+                    "user_url": "/users/3832402/arthurrrrrr"
+                }, 
+                "comments": [
+                    {
+                        "date": "2015-04-05 19:05:01Z", 
+                        "user_login": "Padraic Cunningham", 
+                        "user_url": "/users/2141635/padraic-cunningham"
+                    }, 
+                    {
+                        "date": "2015-04-05 19:08:32Z", 
+                        "user_login": "Arthurrrrrr", 
+                        "user_url": "/users/3832402/arthurrrrrr"
+                    }, 
+                    {
+                        "date": "2015-04-05 19:11:21Z", 
+                        "user_login": "Padraic Cunningham", 
+                        "user_url": "/users/2141635/padraic-cunningham"
+                    }, 
+                    {
+                        "date": "2015-04-05 19:12:44Z", 
+                        "user_login": "Arthurrrrrr", 
+                        "user_url": "/users/3832402/arthurrrrrr"
+                    }, 
+                    {
+                        "date": "2015-04-05 19:19:32Z", 
+                        "user_login": "Arthurrrrrr", 
+                        "user_url": "/users/3832402/arthurrrrrr"
+                    }
+                ]
+            }, 
+            "answers": [
+                {
+                    "answered_by": {
+                        "date": "2015-04-05 20:25:50Z", 
+                        "user_login": "Sam King", 
+                        "user_url": "/users/418107/sam-king"
+                    }, 
+                    "comments": []
+                }
+            ]
+        }, 
+        "attn": {
+            "votes": "\n0\nvotes\n", 
+            "answers": "\n1answer\r\n            ", 
+            "views": "\r\n    27 views\r\n"
         }
     }, 
     {
@@ -113,8 +397,8 @@
                 "name": "javascript"
             }, 
             {
-                "url": "/questions/tagged/ssl", 
-                "name": "ssl"
+                "url": "/questions/tagged/csv", 
+                "name": "csv"
             }, 
             {
                 "url": "/questions/tagged/web-scraping", 
@@ -129,116 +413,36 @@
                 "name": "casperjs"
             }
         ], 
-        "title": "CasperJS/PhantomJS failing SSL handshakes on some sites even with --ssl-protocol=any", 
-        "excerpt": "\r\n            I've had issues with CasperJS and SSL, but using --ssl-protocol=any has always fixed the problem, as referenced in this answer. In this case, I'm still having issues.\n\nI put this in the command line:\n\n...\r\n        ", 
-        "post_url": "/questions/29441151/casperjs-phantomjs-failing-ssl-handshakes-on-some-sites-even-with-ssl-protocol", 
+        "title": "CasperJS: Export scraped data to structured Excel or CSV", 
+        "excerpt": "\r\n            I am working on a project where I am looping through a series of invoices and scraping a table of data from each invoice. I am writing the code in CasperJS, and have reached a point where I can scrape ...\r\n        ", 
+        "post_url": "/questions/29458918/casperjs-export-scraped-data-to-structured-excel-or-csv", 
         "activity": {
             "question": {
                 "asked_by": {
-                    "date": "2015-04-03 23:40:19Z", 
-                    "user_login": "benfgates", 
-                    "user_url": "/users/4747987/benfgates"
+                    "date": "2015-04-05 15:31:22Z", 
+                    "user_login": "Matt H", 
+                    "user_url": "/users/4515376/matt-h"
                 }, 
-                "comments": []
-            }, 
-            "answers": []
-        }, 
-        "attn": {
-            "votes": "\n1\nvote\n", 
-            "answers": "\n0answers\r\n            ", 
-            "views": "\r\n    7 views\r\n"
-        }
-    }, 
-    {
-        "tags": [
-            {
-                "url": "/questions/tagged/node.js", 
-                "name": "node.js"
-            }, 
-            {
-                "url": "/questions/tagged/web-scraping", 
-                "name": "web-scraping"
-            }
-        ], 
-        "title": "Scraping pages with node.js", 
-        "excerpt": "\r\n            I'm trying to write an app that receives a webpage, and then go over all the links on the page and determine if they're valid articles, or just commercials, promotional page and so on.\nSo far, I've ...\r\n        ", 
-        "post_url": "/questions/29437909/scraping-pages-with-node-js", 
-        "activity": {
-            "question": {
-                "asked_by": {
-                    "date": "2015-04-03 18:42:51Z", 
-                    "user_login": "Luoruize", 
-                    "user_url": "/users/986494/luoruize"
-                }, 
-                "comments": []
-            }, 
-            "answers": []
-        }, 
-        "attn": {
-            "votes": "\n-2\nvotes\n", 
-            "answers": "\n0answers\r\n            ", 
-            "views": "\r\n    23 views\r\n"
-        }
-    }, 
-    {
-        "tags": [
-            {
-                "url": "/questions/tagged/xpath", 
-                "name": "xpath"
-            }, 
-            {
-                "url": "/questions/tagged/web-scraping", 
-                "name": "web-scraping"
-            }, 
-            {
-                "url": "/questions/tagged/simple-html-dom", 
-                "name": "simple-html-dom"
-            }
-        ], 
-        "title": "xpath giving wrong output in simple html dom", 
-        "excerpt": "\r\n            I'm trying to scrape every line on this url\n\nhttp://www.gosugamers.net/counterstrike/news/archive\n\nI've used xpath-helper to create following path:\n\n//div[class='content']/table[@class='simple ...\r\n        ", 
-        "post_url": "/questions/29437355/xpath-giving-wrong-output-in-simple-html-dom", 
-        "activity": {
-            "question": {
-                "asked_by": {
-                    "date": "2015-04-03 18:00:31Z", 
-                    "user_login": "Peter Pik", 
-                    "user_url": "/users/4034437/peter-pik"
-                }, 
-                "comments": []
+                "comments": [
+                    {
+                        "date": "2015-04-05 18:16:06Z", 
+                        "user_login": "Matt H", 
+                        "user_url": "/users/4515376/matt-h"
+                    }
+                ]
             }, 
             "answers": [
                 {
                     "answered_by": {
-                        "date": "2015-04-03 18:05:29Z", 
-                        "user_login": "joemfb", 
-                        "user_url": "/users/920052/joemfb"
+                        "date": "2015-04-05 20:25:42Z", 
+                        "user_login": "Artjom B.", 
+                        "user_url": "/users/1816580/artjom-b"
                     }, 
                     "comments": [
                         {
-                            "date": "2015-04-03 18:10:41Z", 
-                            "user_login": "Peter Pik", 
-                            "user_url": "/users/4034437/peter-pik"
-                        }, 
-                        {
-                            "date": "2015-04-03 18:11:59Z", 
-                            "user_login": "joemfb", 
-                            "user_url": "/users/920052/joemfb"
-                        }, 
-                        {
-                            "date": "2015-04-03 18:14:47Z", 
-                            "user_login": "Peter Pik", 
-                            "user_url": "/users/4034437/peter-pik"
-                        }, 
-                        {
-                            "date": "2015-04-03 18:15:33Z", 
-                            "user_login": "joemfb", 
-                            "user_url": "/users/920052/joemfb"
-                        }, 
-                        {
-                            "date": "2015-04-03 18:18:52Z", 
-                            "user_login": "Peter Pik", 
-                            "user_url": "/users/4034437/peter-pik"
+                            "date": "2015-04-05 20:27:42Z", 
+                            "user_login": "Artjom B.", 
+                            "user_url": "/users/1816580/artjom-b"
                         }
                     ]
                 }
@@ -247,7 +451,7 @@
         "attn": {
             "votes": "\n0\nvotes\n", 
             "answers": "\n1answer\r\n            ", 
-            "views": "\r\n    9 views\r\n"
+            "views": "\r\n    13 views\r\n"
         }
     }, 
     {
@@ -257,220 +461,51 @@
                 "name": "python"
             }, 
             {
-                "url": "/questions/tagged/web-scraping", 
-                "name": "web-scraping"
+                "url": "/questions/tagged/firefox", 
+                "name": "firefox"
             }, 
             {
-                "url": "/questions/tagged/urllib", 
-                "name": "urllib"
-            }, 
-            {
-                "url": "/questions/tagged/scrape", 
-                "name": "scrape"
-            }
-        ], 
-        "title": "Try to scrape image from image url (using python urllib ) but get html instead", 
-        "excerpt": "\r\n            I've tried to get the image from the following url.\n\n\n  http://upic.me/i/fj/the_wonderful_mist_once_again_01.jpg\n\n\nI can do right-click and save-as but when I tried to use urlretrieve like\n\nimport ...\r\n        ", 
-        "post_url": "/questions/29433699/try-to-scrape-image-from-image-url-using-python-urllib-but-get-html-instead", 
-        "activity": {
-            "question": {
-                "asked_by": {
-                    "date": "2015-04-03 14:05:20Z", 
-                    "user_login": "Winnie", 
-                    "user_url": "/users/3963848/winnie"
-                }, 
-                "comments": []
-            }, 
-            "answers": [
-                {
-                    "answered_by": {
-                        "date": "2015-04-03 15:19:49Z", 
-                        "user_login": "Aaron", 
-                        "user_url": "/users/1686094/aaron"
-                    }, 
-                    "comments": [
-                        {
-                            "date": "2015-04-03 15:46:59Z", 
-                            "user_login": "Winnie", 
-                            "user_url": "/users/3963848/winnie"
-                        }
-                    ]
-                }, 
-                {
-                    "answered_by": {
-                        "date": "2015-04-03 14:14:04Z", 
-                        "user_login": "Hackaholic", 
-                        "user_url": "/users/2294755/hackaholic"
-                    }, 
-                    "comments": [
-                        {
-                            "date": "2015-04-03 14:29:00Z", 
-                            "user_login": "Winnie", 
-                            "user_url": "/users/3963848/winnie"
-                        }
-                    ]
-                }
-            ]
-        }, 
-        "attn": {
-            "votes": "\n1\nvote\n", 
-            "answers": "\n2answers\r\n            ", 
-            "views": "\r\n    24 views\r\n"
-        }
-    }, 
-    {
-        "tags": [
-            {
-                "url": "/questions/tagged/r", 
-                "name": "r"
+                "url": "/questions/tagged/selenium", 
+                "name": "selenium"
             }, 
             {
                 "url": "/questions/tagged/web-scraping", 
                 "name": "web-scraping"
             }, 
             {
-                "url": "/questions/tagged/rvest", 
-                "name": "rvest"
-            }, 
-            {
-                "url": "/questions/tagged/rselenium", 
-                "name": "rselenium"
+                "url": "/questions/tagged/scrapy", 
+                "name": "scrapy"
             }
         ], 
-        "title": "stumped on how to scrape the data from this site (using R)", 
-        "excerpt": "\r\n            I am trying to scrape the data, using R, from this site:\nhttp://www.soccer24.com/kosovo/superliga/results/#\n\nI can do the following:\n\nlibrary(rvest)\ndoc <- ...\r\n        ", 
-        "post_url": "/questions/29431787/stumped-on-how-to-scrape-the-data-from-this-site-using-r", 
+        "title": "Selenium WebDriverException: Can't load the profile", 
+        "excerpt": "\r\n            I can't figure out why exactly selenium throws this exception because this construction worked fine before I put it in while loop and exception handler.\n\ndef parse(self, response):\n    phrases = ...\r\n        ", 
+        "post_url": "/questions/29458885/selenium-webdriverexception-cant-load-the-profile", 
         "activity": {
             "question": {
                 "asked_by": {
-                    "date": "2015-04-03 11:57:49Z", 
-                    "user_login": "Peter Verbeet", 
-                    "user_url": "/users/1046164/peter-verbeet"
+                    "date": "2015-04-05 15:28:05Z", 
+                    "user_login": "Dmitry Mikhaylov", 
+                    "user_url": "/users/1527304/dmitry-mikhaylov"
                 }, 
                 "comments": [
                     {
-                        "date": "2015-04-03 12:29:54Z", 
-                        "user_login": "Jason V", 
-                        "user_url": "/users/4669720/jason-v"
+                        "date": "2015-04-05 15:30:01Z", 
+                        "user_login": "ILostMySpoon", 
+                        "user_url": "/users/1736256/ilostmyspoon"
                     }, 
                     {
-                        "date": "2015-04-03 12:46:44Z", 
-                        "user_login": "hrbrmstr", 
-                        "user_url": "/users/1457051/hrbrmstr"
-                    }, 
-                    {
-                        "date": "2015-04-03 12:50:36Z", 
-                        "user_login": "Peter Verbeet", 
-                        "user_url": "/users/1046164/peter-verbeet"
+                        "date": "2015-04-05 23:00:25Z", 
+                        "user_login": "alecxe", 
+                        "user_url": "/users/771848/alecxe"
                     }
                 ]
             }, 
-            "answers": [
-                {
-                    "answered_by": {
-                        "date": "2015-04-03 14:20:41Z", 
-                        "user_login": "jdharrison", 
-                        "user_url": "/users/1690692/jdharrison"
-                    }, 
-                    "comments": [
-                        {
-                            "date": "2015-04-03 15:04:14Z", 
-                            "user_login": "Peter Verbeet", 
-                            "user_url": "/users/1046164/peter-verbeet"
-                        }, 
-                        {
-                            "date": "2015-04-03 15:34:53Z", 
-                            "user_login": "jdharrison", 
-                            "user_url": "/users/1690692/jdharrison"
-                        }, 
-                        {
-                            "date": "2015-04-03 16:04:54Z", 
-                            "user_login": "Peter Verbeet", 
-                            "user_url": "/users/1046164/peter-verbeet"
-                        }, 
-                        {
-                            "date": "2015-04-03 16:27:57Z", 
-                            "user_login": "jdharrison", 
-                            "user_url": "/users/1690692/jdharrison"
-                        }, 
-                        {
-                            "date": "2015-04-03 19:30:53Z", 
-                            "user_login": "Peter Verbeet", 
-                            "user_url": "/users/1046164/peter-verbeet"
-                        }
-                    ]
-                }
-            ]
-        }, 
-        "attn": {
-            "votes": "\n6\nvotes\n", 
-            "answers": "\n1answer\r\n            ", 
-            "views": "\r\n    92 views\r\n"
-        }
-    }, 
-    {
-        "tags": [
-            {
-                "url": "/questions/tagged/java", 
-                "name": "java"
-            }, 
-            {
-                "url": "/questions/tagged/web-scraping", 
-                "name": "web-scraping"
-            }
-        ], 
-        "title": "third party website scraping without API", 
-        "excerpt": "\r\n            I need to scrap this website, according to the choices made on a couple of combo boxes.\nThe problem is that there is no API and the URL is constant so I can not copy the url to match the criteria.\n\nI ...\r\n        ", 
-        "post_url": "/questions/29428481/third-party-website-scraping-without-api", 
-        "activity": {
-            "question": {
-                "asked_by": {
-                    "date": "2015-04-03 08:03:01Z", 
-                    "user_login": "Skaros Ilias", 
-                    "user_url": "/users/3963249/skaros-ilias"
-                }, 
-                "comments": []
-            }, 
-            "answers": [
-                {
-                    "answered_by": {
-                        "date": "2015-04-03 08:58:00Z", 
-                        "user_login": "\u00d6zhan D\u00fcz", 
-                        "user_url": "/users/452425/%c3%96zhan-d%c3%bcz"
-                    }, 
-                    "comments": [
-                        {
-                            "date": "2015-04-03 15:00:53Z", 
-                            "user_login": "Skaros Ilias", 
-                            "user_url": "/users/3963249/skaros-ilias"
-                        }, 
-                        {
-                            "date": "2015-04-03 20:08:44Z", 
-                            "user_login": "Skaros Ilias", 
-                            "user_url": "/users/3963249/skaros-ilias"
-                        }
-                    ]
-                }, 
-                {
-                    "answered_by": {
-                        "date": "2015-04-03 08:57:46Z", 
-                        "user_login": "Igor Savinkin", 
-                        "user_url": "/users/1230477/igor-savinkin"
-                    }, 
-                    "comments": [
-                        {
-                            "date": "2015-04-03 15:00:23Z", 
-                            "user_login": "Skaros Ilias", 
-                            "user_url": "/users/3963249/skaros-ilias"
-                        }
-                    ]
-                }
-            ]
+            "answers": []
         }, 
         "attn": {
             "votes": "\n0\nvotes\n", 
-            "answers": "\n2answers\r\n            ", 
-            "views": "\r\n    26 views\r\n"
+            "answers": "\n0answers\r\n            ", 
+            "views": "\r\n    14 views\r\n"
         }
     }, 
     {
@@ -488,109 +523,131 @@
                 "name": "beautifulsoup"
             }, 
             {
-                "url": "/questions/tagged/scrapy", 
-                "name": "scrapy"
+                "url": "/questions/tagged/web-crawler", 
+                "name": "web-crawler"
             }
         ], 
-        "title": "Scrapping Data from bitcoincharts", 
-        "excerpt": "\r\n            Background: Python 2.7 is my first coding language with no other code/tech experience. I would rate myself as a beginner in python.\n\nProblem: I am trying to scrape the raw data off bitcoincharts (and ...\r\n        ", 
-        "post_url": "/questions/29425894/scrapping-data-from-bitcoincharts", 
+        "title": "How can I get the full link from beautifulsoup instead of only the internal link", 
+        "excerpt": "\r\n            I am new to python. I am building a crawler for the company I work for. Crawling its website, there is a internal link that is not in the link format that it is used to. How can I get the entire link ...\r\n        ", 
+        "post_url": "/questions/29458390/how-can-i-get-the-full-link-from-beautifulsoup-instead-of-only-the-internal-link", 
         "activity": {
             "question": {
                 "asked_by": {
-                    "date": "2015-04-03 03:43:56Z", 
-                    "user_login": "JChan", 
-                    "user_url": "/users/4392033/jchan"
-                }, 
-                "comments": []
-            }, 
-            "answers": [
-                {
-                    "answered_by": {
-                        "date": "2015-04-03 04:36:03Z", 
-                        "user_login": "AnD", 
-                        "user_url": "/users/4252013/and"
-                    }, 
-                    "comments": [
-                        {
-                            "date": "2015-04-03 06:41:15Z", 
-                            "user_login": "JChan", 
-                            "user_url": "/users/4392033/jchan"
-                        }
-                    ]
-                }
-            ]
-        }, 
-        "attn": {
-            "votes": "\n0\nvotes\n", 
-            "answers": "\n1answer\r\n            ", 
-            "views": "\r\n    20 views\r\n"
-        }
-    }, 
-    {
-        "tags": [
-            {
-                "url": "/questions/tagged/javascript", 
-                "name": "javascript"
-            }, 
-            {
-                "url": "/questions/tagged/vba", 
-                "name": "vba"
-            }, 
-            {
-                "url": "/questions/tagged/web-scraping", 
-                "name": "web-scraping"
-            }
-        ], 
-        "title": "VBA scraping generated content which is not in the HTML source file", 
-        "excerpt": "\r\n            I have made a VBA code to scrape some product prices from web pages.\n\nI can make it work for all the websites I want except for one. On this particular site, the prices are not shown in the HTML code ...\r\n        ", 
-        "post_url": "/questions/29422436/vba-scraping-generated-content-which-is-not-in-the-html-source-file", 
-        "activity": {
-            "question": {
-                "asked_by": {
-                    "date": "2015-04-02 21:04:46Z", 
-                    "user_login": "user3254924", 
-                    "user_url": "/users/3254924/user3254924"
+                    "date": "2015-04-05 14:35:30Z", 
+                    "user_login": "michelfashionroom", 
+                    "user_url": "/users/4727211/michelfashionroom"
                 }, 
                 "comments": [
                     {
-                        "date": "2015-04-02 23:53:01Z", 
-                        "user_login": "Tim Williams", 
-                        "user_url": "/users/478884/tim-williams"
+                        "date": "2015-04-05 14:38:00Z", 
+                        "user_login": "Avinash Raj", 
+                        "user_url": "/users/3297613/avinash-raj"
+                    }, 
+                    {
+                        "date": "2015-04-05 14:38:22Z", 
+                        "user_login": "Selcuk", 
+                        "user_url": "/users/2011147/selcuk"
+                    }, 
+                    {
+                        "date": "2015-04-05 14:41:20Z", 
+                        "user_login": "michelfashionroom", 
+                        "user_url": "/users/4727211/michelfashionroom"
                     }
                 ]
             }, 
             "answers": [
                 {
                     "answered_by": {
-                        "date": "2015-04-02 21:30:40Z", 
-                        "user_login": "Ali Sheikhpour", 
-                        "user_url": "/users/4700922/ali-sheikhpour"
+                        "date": "2015-04-05 15:53:23Z", 
+                        "user_login": "Ricardo Burillo", 
+                        "user_url": "/users/4283220/ricardo-burillo"
                     }, 
-                    "comments": [
-                        {
-                            "date": "2015-04-03 13:08:45Z", 
-                            "user_login": "user3254924", 
-                            "user_url": "/users/3254924/user3254924"
-                        }, 
-                        {
-                            "date": "2015-04-03 13:43:14Z", 
-                            "user_login": "Ali Sheikhpour", 
-                            "user_url": "/users/4700922/ali-sheikhpour"
-                        }, 
-                        {
-                            "date": "2015-04-03 15:16:54Z", 
-                            "user_login": "user3254924", 
-                            "user_url": "/users/3254924/user3254924"
-                        }
-                    ]
+                    "comments": []
+                }, 
+                {
+                    "answered_by": {
+                        "date": "2015-04-05 18:35:40Z", 
+                        "user_login": "michelfashionroom", 
+                        "user_url": "/users/4727211/michelfashionroom"
+                    }, 
+                    "comments": []
                 }
             ]
         }, 
         "attn": {
-            "votes": "\n1\nvote\n", 
+            "votes": "\n0\nvotes\n", 
+            "answers": "\n2answers\r\n            ", 
+            "views": "\r\n    18 views\r\n"
+        }
+    }, 
+    {
+        "tags": [
+            {
+                "url": "/questions/tagged/php", 
+                "name": "php"
+            }, 
+            {
+                "url": "/questions/tagged/parsing", 
+                "name": "parsing"
+            }, 
+            {
+                "url": "/questions/tagged/web-scraping", 
+                "name": "web-scraping"
+            }
+        ], 
+        "title": "Call to a member function find() on a non-object in D:\\xampp\\htdocs\\simplehtmldom\\index.php on line 13", 
+        "excerpt": "\r\n            I want to extract the data from another site for updated as per that site of data in my site but the above error shown in code and my code is as below:-\n\n<?php\n...\r\n        ", 
+        "post_url": "/questions/29456114/call-to-a-member-function-find-on-a-non-object-in-d-xampp-htdocs-simplehtmldo", 
+        "activity": {
+            "question": {
+                "asked_by": {
+                    "date": "2015-04-05 09:54:43Z", 
+                    "user_login": "pau cha", 
+                    "user_url": "/users/4645983/pau-cha"
+                }, 
+                "comments": [
+                    {
+                        "date": "2015-04-05 10:19:41Z", 
+                        "user_login": "Iffi", 
+                        "user_url": "/users/1434905/iffi"
+                    }, 
+                    {
+                        "date": "2015-04-05 10:31:51Z", 
+                        "user_login": "Ghost", 
+                        "user_url": "/users/3859027/ghost"
+                    }, 
+                    {
+                        "date": "2015-04-05 10:38:05Z", 
+                        "user_login": "pau cha", 
+                        "user_url": "/users/4645983/pau-cha"
+                    }, 
+                    {
+                        "date": "2015-04-05 10:38:47Z", 
+                        "user_login": "pau cha", 
+                        "user_url": "/users/4645983/pau-cha"
+                    }, 
+                    {
+                        "date": "2015-04-05 10:42:00Z", 
+                        "user_login": "Ghost", 
+                        "user_url": "/users/3859027/ghost"
+                    }
+                ]
+            }, 
+            "answers": [
+                {
+                    "answered_by": {
+                        "date": "2015-04-05 11:59:56Z", 
+                        "user_login": "Hatef", 
+                        "user_url": "/users/2568469/hatef"
+                    }, 
+                    "comments": []
+                }
+            ]
+        }, 
+        "attn": {
+            "votes": "\n0\nvotes\n", 
             "answers": "\n1answer\r\n            ", 
-            "views": "\r\n    22 views\r\n"
+            "views": "\r\n    13 views\r\n"
         }
     }
 ]
