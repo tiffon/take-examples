@@ -1,0 +1,134 @@
+
+
+def: get comment activity
+    $ .comment-user
+        | text ;                        : user_login
+        | [href] ;                      : user_url
+    $ .comment-date span | [title] ;    : date
+
+def: get poster activity
+    $ .user-details a
+        | text ;                            : user_login
+        | [href] ;                          : user_url
+    $ .user-action-time span | [title] ;    : date
+
+
+$ .question
+    save sub                                    : question
+        $ .postcell .post-signature.owner
+            get poster activity ;                   : asked_by
+        $ .comments .comment-body
+            save each                               : comments
+                get comment activity ; merge            : *
+
+$ #answers .answer
+    save each                                   : answers
+        $ .answercell .user-info | -1
+            get poster activity ;                   : answered_by
+        $ .comments .comment-body
+            save each                               : comments
+                get comment activity ; merge            : *
+
+
+
+
+
+
+
+
+
+
+
+def: get_poster_activity
+    $ .user-details a
+        | text
+            :                               user_login
+        | [href]
+            :                               user_url
+    $ .user-action-time span | [title]
+            :                               date
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def: get_poster_activity
+    $ .user-details a
+        | text
+            save: user_login
+        | [href]
+            save: user_url
+    $ .user-action-time span | [title]
+        save: date
+
+
+
+
+
+
+def: get_comment_activity
+    $ .comment-user
+        | text
+            save: user_login
+        | [href]
+            save: user_url
+    $ .comment-date span | [title]
+        save: date
+
+def: get_poster_activity
+    $ .user-details a
+        | text
+            save: user_login
+        | [href]
+            save: user_url
+    $ .user-action-time span | [title]
+        save: date
+
+
+
+
+
+
+
+
+
+
+
+$ .question
+
+    $ .postcell .post-signature.owner
+        get_poster_activity()
+            save: question.asked_by
+
+    $ .postcell .post-signature.owner
+        apply: get-poster-activity
+            save: question.asked_by
+
+    $ .comments .comment-body
+        save each: question.comments
+            apply: get_comment_activity
+            merge
+
+$ #answers .answer
+    save each: answers
+
+        $ .answercell .user-info | -1
+            apply: get_poster_activity
+                save: answered_by
+
+        $ .comments .comment-body
+            save each: comments
+                apply: get_comment_activity
+                merge
