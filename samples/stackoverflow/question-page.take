@@ -1,30 +1,27 @@
-$ .question
-    # question poster
-    $ .postcell .post-signature.owner
-        $ .user-details a
-            | text ;                            : question.asked_by.user_login
-            | [href] ;                          : question.asked_by.user_url
-        $ .user-action-time span | [title] ;    : question.asked_by.date
-    # question comments
+def: poster
+    $ .user-details a
+        | text ;                            : user_login
+        | [href] ;                          : user_url
+    $ .user-action-time span | [title] ;    : date
+
+def: comments
     $ .comments .comment-body
-        save each                               : question.comments
+        save each                               : comments
             $ .comment-user
                 | text ;                            : user_login
                 | [href] ;                          : user_url
             $ .comment-date span | [title] ;        : date
 
-$ #answers .answer
-    save each                                   : answers
-        # user who answered the post
-        $ .answercell .user-info | -1
-            $ .user-details a
-                | text ;                            : answered_by.user_login
-                | [href] ;                          : answered_by.user_url
-            $ .user-action-time span | [title] ;    : answered_by.date
-        # comments on the answer
-        $ .comments .comment-body
-            save each                               : comments
-                $ .comment-user
-                    | text ;                            : user_login
-                    | [href] ;                          : user_url
-                $ .comment-date span | [title] ;        : date
+
+
+# get poster and comments for the question
+$ .question ; +                                 : question
+    $ .postcell .post-signature.owner
+        poster ;                                    : asked_by
+    comments ;                                   >> : comments
+
+# get poster and comments for each answer
+$ #answers .answer ; save each                  : answers
+    $ .answercell .user-info | -1
+        poster ;                                    : answered_by
+    comments ;                                   >> : comments
